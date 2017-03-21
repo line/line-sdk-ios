@@ -21,3 +21,15 @@ The LINE SDK for iOS includes methods for calling APIs. Using these methods, you
 To download and install the SDK from the Channel Console, please refer to the instructions in the link below:
 
 https://developers.line.me/ios/development-with-sdk-v2#download
+
+### Cocoapods Installation
+
+To install the SDK using Cocoapods, add the following line to your Podfile:
+
+```ruby
+pod 'LineSDK', '~> 4.0.2'
+```
+
+If you are using Swift, make sure `use_frameworks!` has been specified in your Podfile.
+
+After installing the LineSDK using Cocoapods, please follow our instructions for setting up the iOS SDK starting from the [Enable Keychain Sharing](https://developers.line.me/ios/development-with-sdk-v2#link_frameworks) section.
